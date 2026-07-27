@@ -41,4 +41,4 @@ Just open `index.html` in a browser — no build step required.
 ## Contact
 
 - GitHub: [@Schaiganfarooq](https://github.com/Schaiganfarooq)
-- Email: mianasadali@gmail.com
+- Email: shagifarooq@gmail.com

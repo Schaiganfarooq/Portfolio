@@ -1,0 +1,10 @@
+# Local tooling
+.claude/
+
+# Stray working / marketing files that live in this folder but aren't part of the site
+Appsians_*
+*.xlsx
+*.pdf
+*.png
+*.jpg
+*.jpeg
