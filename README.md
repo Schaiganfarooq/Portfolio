@@ -31,10 +31,12 @@ Just open `index.html` in a browser — no build step required.
 2. Repo **Settings → Pages → Source: `main` / root**.
 3. Your site goes live at `https://schaiganfarooq.github.io/Portfolio/`.
 
-## Featured project
+## Featured work
 
-- **[Email-Response-Agent](https://github.com/Schaiganfarooq/Email-Response-Agent)** —
-  An AI-powered email response agent built with n8n and OpenAI.
+- **FurniFlex** — UX/UI for a modern furniture e-commerce store · [Figma](https://www.figma.com/design/rtJMDLWgzqCXKOn4BOJ12K/Wensite-E-Commerce)
+- **Luxe Balsam Properties** — Real-estate platform with listings, analytics & search · [Figma](https://www.figma.com/design/wFN97RfBTYYEYbK493HjYg/Website)
+- **WIP Fitness** — Energetic fitness brand website · [Figma](https://www.figma.com/design/ZWq9YefLOnGqFhK4mkIvAz/WIP-Fitness)
+- **[Email-Response-Agent](https://github.com/Schaiganfarooq/Email-Response-Agent)** — AI-powered email response agent built with n8n and OpenAI.
 
 ## Contact
 
