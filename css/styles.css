@@ -83,12 +83,20 @@ em { font-style: italic; color: var(--accent); }
   position: sticky;
   top: 0;
   z-index: 100;
-  background: color-mix(in srgb, var(--bg) 82%, transparent);
-  backdrop-filter: saturate(150%) blur(14px);
+  background: transparent;
   border-bottom: 1px solid transparent;
-  transition: border-color 0.3s var(--ease), background 0.3s var(--ease);
+  -webkit-backdrop-filter: blur(0px);
+  backdrop-filter: blur(0px);
+  transition: border-color 0.35s var(--ease), background 0.35s var(--ease),
+    backdrop-filter 0.35s var(--ease), -webkit-backdrop-filter 0.35s var(--ease);
 }
-.nav.is-scrolled { border-color: var(--line); }
+/* Glass activates once the page scrolls */
+.nav.is-scrolled {
+  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  -webkit-backdrop-filter: saturate(160%) blur(16px);
+  backdrop-filter: saturate(160%) blur(16px);
+  border-bottom-color: var(--line);
+}
 .nav__inner { display: flex; align-items: center; justify-content: space-between; height: 68px; }
 .nav__brand { font-weight: 700; font-size: 1.1rem; letter-spacing: -0.02em; }
 .nav__mark { color: var(--accent); }
